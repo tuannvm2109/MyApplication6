@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textViewDaySummaryDayView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="T2"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/textViewVisibilitySummaryDayView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10km"
+        android:textSize="13sp"
+        android:layout_gravity="center"/>
+    <com.github.pwittchen.weathericonview.WeatherIconView
+        android:id="@+id/weatherIconViewSummaryDayView"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/textViewUVSummaryDayView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.0"
+        android:textSize="13sp"
+        android:layout_gravity="center"/>
+</LinearLayout>
